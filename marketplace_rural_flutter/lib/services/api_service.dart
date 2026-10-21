@@ -5,7 +5,7 @@ import 'package:http/http.dart' as http;
 /// Comunicação HTTP com a API PHP de tarefas.
 class ApiService {
   static const String endpoint =
-      'http://10.140.170.23/pdm_api/tarefas.php';
+      'http://10.140.170.19/pdm_api/tarefas.php';
   final http.Client _client;
 
   ApiService({http.Client? client}) : _client = client ?? http.Client();
